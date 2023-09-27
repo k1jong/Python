@@ -1,0 +1,13 @@
+print("#2")
+a = int(input())
+for i in range(0,a+1):
+    print(" " * (a-i),end="")
+    print("*" * i,end="")
+    print()
+
+print("#3")
+a = int(input())
+for i in range(0,a):
+    print(" " * (a-i-1),end="")
+    print("*" * (2*i+1),end="")
+    print()
