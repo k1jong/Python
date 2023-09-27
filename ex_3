@@ -1,0 +1,12 @@
+def calstep(name,*score,**option) :
+    print(name)
+    sum = 0
+    for i in score:
+        sum += i
+    print("총점 :",sum)
+
+    if(option['avg']==True):
+        print("평균 :",sum/len(score))
+
+calstep("김기종",10,20,30,40,avg=True)
+calstep("김기종2",30,40,avg=False)
