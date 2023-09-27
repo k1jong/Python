@@ -1,0 +1,11 @@
+def calstep(**param):
+    begin = param['begin']
+    end = param['end']
+
+    sum=0
+    for num in range(begin,end+1,param['step']):
+        sum +=num
+
+    return sum
+
+print("범위의 합은",calstep(begin=1,end=100,step=1))
