@@ -1,0 +1,16 @@
+val = 'Python'
+# print(val[2])
+# print(val[-2])
+# val[1] = 'p'
+
+val += '하자'
+
+print(val)
+
+from io import StringIO
+bf = StringIO()
+bf.write("Hi")
+bf.write("greeting")
+result = bf.getvalue()
+bf.close()
+print(result)
