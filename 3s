@@ -1,0 +1,2 @@
+sval = 'Pthon Programing'
+print('m이 있다' if 'm' in sval else 'm이 웁다')
